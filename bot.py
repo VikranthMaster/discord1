@@ -89,4 +89,4 @@ async def play(ctx, url : str):
     voice = discord.utils.get(client.voice_clients, guild=ctx.guild)
     await voiceChannel.connect()
 
-client.run('Nzg1MzA3ODAwMTU4NDcwMTQ1.X8184Q.oDJWl5_4xt0Vi5zv9wtXxTKEROM')
+client.run('TOKEN')
